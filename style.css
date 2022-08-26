@@ -1,0 +1,249 @@
+
+body
+{
+    /*background-image: url('C:/Users/hp/Desktop/FRee codecamp html & css/Pictures/BG10.jpg');*/
+    background-color:#2F4F4F;
+    
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+body .menu
+{
+    margin: 0;
+    padding: 0;
+    background: navy;
+    overflow: hidden;
+
+}
+
+ol li
+{
+    float: left;
+    list-style-type: none;
+}
+ol li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: inline-block;
+}
+ol li a:hover
+{
+    background: red;
+}
+
+.dropdown-content
+{
+    background:white;
+    display: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    
+    
+}
+.dropdown-content a
+{
+   display: block;
+    color: black;
+}
+.dropdown-content a:hover
+{
+    background: greenyellow;
+}
+.handles:hover .dropdown-content
+{
+    display: block;
+}
+
+.Intro
+{
+    height: 300px;
+    width: 100%;
+    
+    position: relative;
+}
+.Links
+{
+  width: 60%;
+  height: 100%;
+  position: relative;
+  
+  
+ 
+}
+.Images
+{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+   /* display: inline-block;
+    margin: auto;*/
+    overflow: hidden;    
+}
+.img1
+{
+    align-items: justify;
+}
+.HI
+{
+    font-weight: bold;
+     margin: 5px;
+    color:orange;
+    
+    display: inline-block;
+    
+}
+.HI2
+{
+    font-weight: bold;
+    margin-left:25px;
+    color: white;
+    line-height: 1;
+    
+}
+.icons{
+    overflow: hidden;
+    
+}
+.icons ul
+{
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+div div ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+div div ul li:last-child
+{
+    margin-right: 0;
+}
+
+div div ul li a{
+    background-image: url('icon-sprite-28.jpg');
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    transition: 1s;
+     
+}
+div div ul li:hover:nth-child(1) a
+{
+    background-position: 0 -84px;
+}
+div div ul li:nth-child(3) a{
+    background-position:-252px 0;
+}
+div div ul li:hover:nth-child(3) a
+{
+    background-position: -252px -84px;
+}
+div div ul li:nth-child(2) a{
+    background-position: -336px 0;
+}
+div div ul li:hover:nth-child(2) a
+{
+    background-position: -336px -84px;
+}
+
+
+.about_me
+{
+    margin-top: 50px;
+    
+}
+
+.Hed
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #FF4500;
+    text-align: center;
+}
+.Description
+{
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    overflow: scroll;
+    text-align: justify;
+    background: #FAFAD2;
+}
+.Skills
+{
+    height: 400px;
+    width: 100%;
+    
+    margin:auto;
+    margin-top: 40px;
+    background:#2F4F4F;
+    
+    
+}
+.Skills > h1
+{
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color: #FF4500;
+}
+
+
+
+dl
+{
+    margin: 0;
+    padding: 0;
+    display: grid;  
+    grid-template-columns:repeat(3,1fr) ;
+    justify-content: center;
+    text-align: center;
+    
+}
+dl li
+{
+    float: left;
+    list-style-type: none;
+    font-size: 100px;
+    
+}
+
+
+footer
+{
+    height: 100px;
+    background: burlywood;
+    position: relative;
+}
+.ftr
+{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;left: 0;
+    top: 0;bottom: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel
+{
+    width: 40vw;
+   
+    margin: auto;
+    background: none;
+}
+
+
+
+
